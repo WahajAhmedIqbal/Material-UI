@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
+import UserForm from "./components/UserForm";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <UserForm />
+    </>
+  );
 }
 
 export default App;
